@@ -34,6 +34,10 @@ h1 {
     color: #c9c9c9;
 }
 
+#MainNav{
+    background: #212121;
+}
+
 nav ul {
     padding: 0;
     list-style: none;
