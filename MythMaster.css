@@ -34,7 +34,7 @@ h1 {
     color: #c9c9c9;
 }
 
-#MainNav{
+body{
     background: #212121;
 }
 
@@ -144,7 +144,6 @@ table tr th {
         border-radius: 2px;
     }
     body {
-        background: #b81d0b;
         max-width: 1200px;
         margin: 0 auto;
     }
