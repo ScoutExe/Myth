@@ -31,6 +31,7 @@ h1 {
     padding: 5px;
     position: absolute;
     top: -1200px;
+    color: #c9c9c9;
 }
 
 nav ul {
@@ -47,8 +48,8 @@ nav li {
     height: auto;
     min-width: 100px;
     width: 100%;
-    border: solid #000001;
-    background: #212121;
+    border: solid goldenrod;
+    background: #141414;
     /*88888a*/
     border-radius: 1px;
     border-radius: 5px;
@@ -69,7 +70,8 @@ nav a {
 }
 
 section {
-    background-color: whitesmoke;
+    background-color: #212121;
+    color: #c9c9c9;
     padding: 1em;
     padding-top: 0;
 }
@@ -79,7 +81,8 @@ p {
 }
 
 footer {
-    background-color: whitesmoke;
+    background-color: #212121;
+    color: #c9c9c9;
 }
 
 #Facebook {
@@ -132,7 +135,7 @@ footer {
     #MainNav {
         position: sticky;
         top: 0;
-        background: whitesmoke;
+        background: #212121;
         padding-bottom: 1px;
     }
     nav li {
@@ -140,9 +143,7 @@ footer {
     }
     nav li :hover {
         background-color: goldenrod;
-        /*#6f1206*/
-        color: #212121;
-        /*whitesmoke*/
+        color: #141414;
         border-radius: 2px;
     }
     body {
