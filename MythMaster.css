@@ -38,6 +38,10 @@ body{
     background: #212121;
 }
 
+#MainNav{
+	background: #212121;
+}
+
 nav ul {
     padding: 0;
     list-style: none;
