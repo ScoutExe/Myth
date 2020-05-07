@@ -31,15 +31,14 @@ h1 {
     padding: 5px;
     position: absolute;
     top: -1200px;
-    color: #c9c9c9;
 }
 
-body{
+body {
     background: #212121;
 }
 
-#MainNav{
-	background: #212121;
+#MainNav {
+    background: #212121;
 }
 
 nav ul {
@@ -58,7 +57,6 @@ nav li {
     width: 100%;
     border: solid goldenrod;
     background: #141414;
-    /*88888a*/
     border-radius: 1px;
     border-radius: 5px;
 }
@@ -72,7 +70,6 @@ nav a {
     display: flex;
     justify-content: center;
     color: goldenrod;
-    /*#6f1206*/
     border-radius: 1px;
     font-weight: bold;
 }
@@ -89,10 +86,10 @@ p {
 }
 
 footer {
-    padding-left: 1em;
     background-color: #212121;
     color: #c9c9c9;
     font-size: 0.75em;
+    padding-left: 1em;
 }
 
 #discord {
@@ -120,23 +117,14 @@ footer {
     border-radius: 0;
 }
 
-.banner{
+.banner {
     display: none;
 }
-
-/* Table Stuff */
-
-table tr th {
-	border: 2px solid black;
-	
-}
-
 
 @media (min-width:800px) {
     #MainNav {
         position: sticky;
         top: 0;
-        background: #212121;
         padding-bottom: 1px;
     }
     nav li {
@@ -144,36 +132,97 @@ table tr th {
     }
     nav li :hover {
         background-color: goldenrod;
-        color: #141414;
+        /*#6f1206*/
+        color: #212121;
+        /*whitesmoke*/
         border-radius: 2px;
     }
     body {
         max-width: 1200px;
         margin: 0 auto;
     }
-
     .left {
         left: 0px;
     }
-    .top{
-        top:0;
+    .top {
+        top: 0;
     }
-    .middle{
+    .middle {
         height: 100%;
-        top:19%;
+        top: 19%;
     }
     .right {
         right: 0px;
     }
-    .bottom{
+    .bottom {
         bottom: 0;
         height: auto;
     }
-    .banner{
+    .banner {
         display: block;
         max-width: 160px;
         border-radius: 0;
         z-index: -999;
         position: fixed;
     }
+    #contact{
+        display:flex;
+        justify-content: space-evenly;
+        flex-flow: wrap row;
+        ;
+    }
+    #suggest{
+        display: flex;
+        flex-flow: wrap row;
+        width:50%;
+    }
+    #suggested{
+        display:flex;
+        flex-flow:wrap row;
+    }
+    #suggestions{
+        min-height: 10em;
+        min-width: 100%;
+    }
+}
+
+/* Table Stuff */
+
+table {
+    width: 100%;
+}
+
+th {
+    border: 2px solid black;
+}
+
+.date {
+    width: 200px;
+}
+
+.event {
+    width: 300px;
+}
+
+.time {
+    width: 70px;
+}
+
+.location {
+    width: 70px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap row;
+}
+
+#suggest {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+#suggestions {
+    min-height: 10em;
 }
