@@ -81,25 +81,10 @@ p {
 }
 
 footer {
+    padding-left: 1em;
     background-color: #212121;
     color: #c9c9c9;
-}
-
-#Facebook {
-    max-width: 75px;
-    padding: .5em;
-    padding-left: 1em;
-}
-
-#Twitter {
-    max-width: 75px;
-    padding: .5em;
-}
-
-#Union {
-    max-width: 200px;
-    background-color: #50b848;
-    margin: .5em;
+    font-size: 0.75em;
 }
 
 #discord {
@@ -130,6 +115,14 @@ footer {
 .banner{
     display: none;
 }
+
+/* Table Stuff */
+
+table tr th {
+	border: 2px solid black;
+	
+}
+
 
 @media (min-width:800px) {
     #MainNav {
