@@ -169,7 +169,17 @@ footer {
         display:flex;
         justify-content: space-evenly;
         flex-flow: wrap row;
-        ;
+        
+    }
+    /* #contactus{
+        display: flex;
+        flex-flow: column wrap;
+    } */
+    #social{
+        display:flex;
+        justify-content: space-evenly;
+        flex-flow: wrap row;
+        
     }
     #suggest{
         display: flex;
